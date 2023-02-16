@@ -31,7 +31,7 @@
 		</svg>
 	</nav>
 
-	<div class="corner">
+	<div class="corner"style="background-color: navy;" >
 		<a href="https://github.com/d3j1x">
 			<img src={github} alt="GitHub" />
 		</a>

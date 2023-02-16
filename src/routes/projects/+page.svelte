@@ -6,11 +6,7 @@
 <div class="text-column">
 	<h1 style="background-color: black;margin:0 20px;border:solid red 0.3rem">Opensource Projects</h1>
 
-	<div class="loader">
-		<h2 style="font-size:larger;background-color: yellow;"><strong>Smrt_Mrkt</strong></h2>
-	</div>
-
-	<p>
+	<!-- <p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
 		following into your command line and following the prompts:
 	</p>
@@ -26,22 +22,19 @@
 	<p>
 		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
 		using it with JavaScript disabled!
-	</p>
+	</p> -->
 </div>
 
 <style>
 	
 	.text-column{
 		color: white;
+		width: 100%;
 		background-image: url('../../lib/images/bkg.jpg');
 		background-repeat: no-repeat;
     	background-size: cover;
 	}
 
-	.loader{
-		text-align:center;
-		background-color: green;
-		margin:10px auto;
-	}
+	
 
 </style>

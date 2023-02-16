@@ -15,7 +15,7 @@
 </svelte:head>
 
 
-<h3 style="text-align:center;color:#FFBF00">WELCOME</h3>
+<h3 style="text-align:center;color:red;font-size:2.5rem">WELCOME</h3>
 
 	
 	<div id="samg" style="width:250px;height:250px">
