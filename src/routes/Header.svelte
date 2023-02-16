@@ -1,13 +1,13 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/logo.png';
 	import github from '$lib/images/github.svg';
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+	<div class="corner" style="background-color: navy;">
+		<a href="https://www.facebook.com/profile.php?id=100073939376761">
+			<img src={logo} alt="ShihebDin" />
 		</a>
 	</div>
 
