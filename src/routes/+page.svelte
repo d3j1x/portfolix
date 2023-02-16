@@ -10,12 +10,12 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>PortfoliX</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 
-<h3 style="text-align:center;">WELCOME</h3>
+<h3 style="text-align:center;color:#FFBF00">WELCOME</h3>
 
 	
 	<div id="samg" style="width:250px;height:250px">
@@ -35,7 +35,7 @@
 		
 
 		to your new<br />SvelteKit app
-	</h1>jjj
+	</h1>
 
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
