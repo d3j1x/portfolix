@@ -1,10 +1,14 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>Projects</title>
+	<meta name="description" content="My Project" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1 style="background-color: black;margin:0 20px;border:solid red 0.3rem">Opensource Projects</h1>
+
+	<div class="loader">
+		<h2 style="font-size:larger;background-color: yellow;"><strong>Smrt_Mrkt</strong></h2>
+	</div>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
@@ -24,3 +28,20 @@
 		using it with JavaScript disabled!
 	</p>
 </div>
+
+<style>
+	
+	.text-column{
+		color: white;
+		background-image: url('../../lib/images/bkg.jpg');
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+
+	.loader{
+		text-align:center;
+		background-color: green;
+		margin:10px auto;
+	}
+
+</style>

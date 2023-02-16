@@ -2,6 +2,11 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+
+	import Myname from './Myname.svelte';
+	import AnimatedText from "./AnimatedText.svelte";
+	import bkg from '$lib/images/bkg.jpg';
+	import pro from '$lib/images/pro.jpg';
 </script>
 
 <svelte:head>
@@ -9,7 +14,16 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+
+<h3 style="text-align:center;">WELCOME</h3>
+
+	
+	<div id="samg" style="width:250px;height:250px">
+		
+	</div>
+<Myname text="I'm Shiheb Din" delay={300} />
+<AnimatedText text="Cybersecurity Specialist & Full Stack Developer." delay={100} />
+<!-- <section>
 	<h1>
 		<span class="welcome">
 			<picture>
@@ -18,17 +32,31 @@
 			</picture>
 		</span>
 
+		
+
 		to your new<br />SvelteKit app
-	</h1>
+	</h1>jjj
 
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
+	
+
 	<Counter />
-</section>
+</section> -->
 
 <style>
+
+	#samg{
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+		border-radius: 50%;
+		background-image:  url('/src/lib/images/pro.jpg');
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
 	section {
 		display: flex;
 		flex-direction: column;
@@ -37,8 +65,9 @@
 		flex: 0.6;
 	}
 
-	h1 {
+	h1,h2 {
 		width: 100%;
+		
 	}
 
 	.welcome {

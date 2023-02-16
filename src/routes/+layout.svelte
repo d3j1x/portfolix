@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>visit <a href="https://github.com/d3j1x/portfolix">d3j1x/portfolix</a> to see Repo source code</p>
 	</footer>
 </div>
 
@@ -23,13 +23,16 @@
 	}
 
 	main {
+		border: white solid 0.1rem;
+		border-radius: 15%;
+		background:linear-gradient(to right,#000000,#0000ff);
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;
-		margin: 0 auto;
+		margin:  0 auto;
 		box-sizing: border-box;
 	}
 
@@ -39,6 +42,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		color: aqua;
 	}
 
 	footer a {
