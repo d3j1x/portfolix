@@ -33,7 +33,7 @@
   <style>
     h2 {
       justify-content: center;
-      margin: auto;
+      margin: 0 auto;
       color: white;
       font-weight:bolder;
       text-align:center;

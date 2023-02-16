@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>PortfoliX</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Portfolix d3j1x app" />
 </svelte:head>
 
 
