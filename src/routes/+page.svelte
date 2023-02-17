@@ -15,7 +15,7 @@
 </svelte:head>
 
 
-<h3 style="text-align:center;color:red;font-size:2.5rem">WELCOME</h3>
+<h3>WELCOME</h3>
 
 	
 	<div id="samg" style="width:250px;height:250px">
@@ -57,7 +57,24 @@
 		background-repeat: no-repeat;
     	background-size: cover;
 	}
-	section {
+
+	h3{
+		font-family: 'Ubuntu', sans-serif;
+  		font-size: 3rem;
+  		font-weight: bold;
+  		color: red;
+  		text-align: center;
+  		letter-spacing: 5px;
+  		text-shadow: 0 2px 3px #747474, 
+      		1px 3px 4px #222, 
+      		0 8px 3px #474747, 
+      		0 11px 4px #747474,
+      		0 14px 4px #565656,
+      		0 17px 4px #343434,
+      		0 20px 4px #171717;
+	}
+	
+	/* section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -84,5 +101,5 @@
 		height: 100%;
 		top: 0;
 		display: block;
-	}
+	} */
 </style>
