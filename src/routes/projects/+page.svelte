@@ -36,7 +36,7 @@
 		margin: 25px auto;
 		color: white;
 		width: 100%;
-		background-image: url('../../lib/images/bkg1.jpg');
+		background-image: url('../../lib/images/bkg.jpg');
 		background-repeat: no-repeat;
     	background-size: cover;
 		border-radius: 20%;
@@ -52,7 +52,7 @@
 	h2{
 		font-size:larger;
 		font-weight: bolder;
-		color: #20C20E;
+		color: #3DFF33;
 		
 	}
 
