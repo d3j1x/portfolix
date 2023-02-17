@@ -4,12 +4,17 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1 style="background-color: black;margin:0 20px;border:solid red 0.3rem">Opensource Projects</h1>
+	<h1 style="background-color: black;margin:0 20px;border:solid red 0.2rem">Opensource Projects</h1>
 
-	<!-- <p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+	<div class="secret">
+		<h2>Cyber-secret</h2>
+		<p>
+		This is a <a href="https://github.com/d3j1x/cyber-secret">Cyber-secret</a> repo. You can Explore it by following the <a href="https://d3j1x.github.io/cyber-secret/">link</a>.
+		</p>
+	</div>
+
+	
+	<!-- 
 
 	<pre>npm create svelte@latest</pre>
 
@@ -28,11 +33,26 @@
 <style>
 	
 	.text-column{
+		margin: 25px auto;
 		color: white;
 		width: 100%;
-		background-image: url('../../lib/images/bkg.jpg');
+		background-image: url('../../lib/images/bkg1.jpg');
 		background-repeat: no-repeat;
     	background-size: cover;
+	}
+
+	.secret{
+		background-color: black;
+		margin: 10px auto;
+		text-align: center;
+		border: dotted yellow;
+	}
+
+	h2{
+		font-size:larger;
+		font-weight: bolder;
+		color: #20C20E;
+		
 	}
 
 	
