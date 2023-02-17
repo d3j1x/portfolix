@@ -4,10 +4,10 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1 style="background-color: black;margin:0 20px;border:solid red 0.2rem">Opensource Projects</h1>
+	<h1 style="background-color: black;margin:0 20px;border:solid red 0.2rem;opacity:0.9">Opensource Projects</h1>
 
 	<div class="secret">
-		<h2>Cyber-secret</h2>
+		<h2>CYBER-SECRET</h2>
 		<p>
 		This is a <a href="https://github.com/d3j1x/cyber-secret">Cyber-secret</a> repo. You can Explore it by following the <a href="https://d3j1x.github.io/cyber-secret/">link</a>.
 		</p>
@@ -39,6 +39,7 @@
 		background-image: url('../../lib/images/bkg1.jpg');
 		background-repeat: no-repeat;
     	background-size: cover;
+		border-radius: 20%;
 	}
 
 	.secret{
