@@ -98,7 +98,7 @@
 	} */
 
 	#loading {
-	width: 80vh;
+	width: 80%;
   	background-color: black;
   	margin: 10px auto;
 	text-align: center;
