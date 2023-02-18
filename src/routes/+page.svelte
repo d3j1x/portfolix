@@ -15,7 +15,7 @@
 </svelte:head>
 
 
-<h3>WELCOME</h3>
+<h3 class="zoom-in-zoom-out">WELCOME</h3>
 
 	
 	<div id="samg" style="width:250px;height:250px">
@@ -62,7 +62,7 @@
 		font-family: 'Ubuntu', sans-serif;
   		font-size: 3rem;
   		font-weight: bold;
-  		color: red;
+  		color: #3DFF33;
   		text-align: center;
   		letter-spacing: 5px;
   		text-shadow: 0 2px 3px #747474, 
@@ -72,7 +72,21 @@
       		0 14px 4px #565656,
       		0 17px 4px #343434,
       		0 20px 4px #171717;
+		animation: zoom-in-zoom-out 5s ease infinite;
 	}
+	@keyframes zoom-in-zoom-out {
+  	0% {
+    	transform: scale(1, 1);
+		
+  	}
+  	50% {
+    	transform: scale(0.7, 0.7);
+  	}
+  	100% {
+    	transform: scale(1, 1);
+		
+  	}
+}
 	
 	/* section {
 		display: flex;

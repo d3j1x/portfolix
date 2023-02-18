@@ -53,7 +53,6 @@
 			This is a <a href="https://github.com/smrket/Smrt-Mrkt">Smrt-Mrkt</a> repo. You can Explore it by following the <a href="https://smrket.github.io/Smrt-Mrkt/">link</a>.
 		</p>
 	</div>
-
 	
 	<!-- 
 
