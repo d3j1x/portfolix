@@ -16,6 +16,29 @@
 	<div id="loading">
 		<div class="waviy">
 			<br>
+ <span style="--i:1">₿</span>
+ <span style="--i:2">I</span>
+ <span style="--i:3">T</span>
+ <span style="--i:4">C</span>
+ <span style="--i:5">O</span>
+ <span style="--i:6">I</span>
+ <span style="--i:7">N</span>
+ <span style="--i:8">-</span>
+ <span style="--i:9">S</span>
+ <span style="--i:10">T</span>
+ <span style="--i:11">R</span>
+ <span style="--i:12">E</span>
+ <span style="--i:13">E</span>
+ <span style="--i:14">T</span>
+	</div>
+		<p>
+			This is a <a href="https://github.com/d3j1x/BitcoinStreet">₿itcoin-Street</a> repo. You can Explore it by following the <a href="https://bitcoin-street.vercel.app/">link</a>.
+		</p>
+	</div>
+
+	<div id="loading">
+		<div class="waviy">
+			<br>
  <span style="--i:1">C</span>
  <span style="--i:2">Y</span>
  <span style="--i:3">B</span>
